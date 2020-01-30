@@ -1,0 +1,4 @@
+#ifndef COMMON_LISTNODE_H
+#define COMMON_LISTNODE_H
+
+#endif // COMMON_LISTNODE_H
