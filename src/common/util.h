@@ -11,4 +11,6 @@
 void util_trace(const char *file, const char *func, int32_t line);
 #define TRACE() util_trace(__FILE__, __func__, __LINE__);
 
+#define BITFLAG_TO_BOOL(var, bit) (((var)&bit) ? true : false)
+
 #endif // COMMON_UTIL_H
