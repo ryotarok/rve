@@ -11,6 +11,7 @@ SRCS+=${SRCDIR}/core/fragmentbase.c
 SRCS+=${SRCDIR}/core/memoryfragment.c
 SRCS+=${SRCDIR}/core/codefragment.c
 SRCS+=${SRCDIR}/core/codetranslator.c
+SRCS+=${SRCDIR}/core/envresult.c
 
 TEST_SRCS+=${TESTDIR}/common/listnode_test.cpp
 TEST_SRCS+=${TESTDIR}/common/bintreenode_test.cpp
@@ -21,3 +22,4 @@ TEST_SRCS+=${TESTDIR}/core/fragmentbase_test.cpp
 TEST_SRCS+=${TESTDIR}/core/memoryfragment_test.cpp
 TEST_SRCS+=${TESTDIR}/core/codefragment_test.cpp
 TEST_SRCS+=${TESTDIR}/core/codetranslator_test.cpp
+TEST_SRCS+=${TESTDIR}/core/envresult_test.cpp
